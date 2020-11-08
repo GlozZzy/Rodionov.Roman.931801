@@ -1,0 +1,18 @@
+﻿body {
+    line-height: 24px;
+    font-size: 16.32px;
+}
+
+
+.first_block {
+    margin: 25px auto;
+    max-width: 510px;
+}
+
+
+.second_block {
+    border: 10px solid blue;
+    padding: 50px;
+    margin: auto;
+    max-width: 390px;
+}

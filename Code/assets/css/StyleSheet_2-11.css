@@ -1,0 +1,21 @@
+﻿body {
+}
+
+
+.main {
+    background-color: aqua;
+    width: 100%;
+    border: 1px solid black;
+    overflow: auto;
+}
+
+
+.img {
+    float: right;
+    margin: 0 0 0 5px;
+}
+
+
+p {
+    margin:0;
+}

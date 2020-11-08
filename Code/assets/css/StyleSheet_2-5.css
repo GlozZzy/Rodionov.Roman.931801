@@ -1,0 +1,22 @@
+﻿body {
+    line-height: 24px;
+    font-size: 16.32px;
+}
+
+
+.first_block {
+    margin: 25px auto;
+    max-width: 510px;
+    background-color: green;
+    color: white;
+}
+
+
+.second_block {
+    border: 25px solid blue;
+    padding: 25px;
+    margin: auto;
+    max-width: 620px;
+    background-color: blue;
+    color: white;
+}

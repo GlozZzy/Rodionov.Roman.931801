@@ -1,0 +1,54 @@
+﻿body {
+}
+
+
+.first_block {
+    background-color: bisque;
+    max-height: 70px;
+    padding: 10px 380px 10px 0;
+}
+
+
+.second_block {
+    background-color: darkgray;
+    margin: 0 5px;
+}
+
+
+.main {
+    display: flex;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+
+p {
+    margin:0;
+    padding:0;
+}
+
+
+ul {
+    margin: 5px 0;
+}
+
+
+@media screen and (max-width:660px){
+    .main {
+        display: block;
+        background-color: aqua;
+        border: 1px solid black;
+    }
+
+
+    .first_block {
+        padding: 10px 80px 10px 0;
+        width: 50px;
+    }
+
+
+    .second_block {
+        max-width:360px;
+        margin:0;
+    }
+}

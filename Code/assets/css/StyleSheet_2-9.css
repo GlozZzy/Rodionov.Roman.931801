@@ -1,0 +1,16 @@
+﻿body {
+}
+
+
+.main {
+    margin: auto;
+    width: 600px;
+    background-color: blue;
+    color: white;
+}
+
+
+.img {
+    float: right;
+    margin: 0 0 15px 15px;
+}

@@ -1,0 +1,56 @@
+﻿body {
+
+}
+
+
+.first_block {
+    background-color: bisque;
+    max-height: 70px;
+    padding: 10px 380px 10px 0;
+}
+
+
+.second_block {
+    background-color: darkgray;
+    margin: 0;
+}
+
+
+.main {
+    display: flex;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+
+p {
+    margin:0;
+    padding:0;
+}
+
+
+ul {
+    margin: 5px 0;
+}
+
+
+.img {
+    width: 600px;
+    height: 530px;
+    float: right;
+}
+
+
+@media screen and (max-width:1115px){
+
+    .first_block {
+        padding: 10px 40px 10px 0;
+    }
+
+
+    .img {
+        width: calc(300px*2/3);
+        height: calc(265px*2/3);
+        float: right;
+    }
+}
