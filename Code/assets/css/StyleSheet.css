@@ -1,3 +1,38 @@
-﻿body
-{
+﻿body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    background-color: #edeef0;
 }
+
+
+header {
+    background-color: #2e5473;
+    padding: 8px 0 2px 280px;
+}
+
+
+footer {
+    bottom: 0;
+    background-color: black;
+    text-align: center;
+    padding: 8px;
+    min-width: 580px;
+}
+
+
+a {
+    color: #507299;
+    text-decoration: none;
+    display: block;
+    margin: 20px 0 0;
+    width: 150px;
+}
+
+
+main {
+    display: flex;
+    margin: auto;
+    width: 50%;
+}
+
