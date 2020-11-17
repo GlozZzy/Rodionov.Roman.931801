@@ -6,33 +6,172 @@
 }
 
 
+p {
+    padding:0;
+    margin:0;
+}
+
+
+p::selection {
+    color: green;
+    background-color: #d0d0d0;
+}
+
+
 header {
+    position: fixed;
+    top: 0;
     background-color: #2e5473;
-    padding: 8px 0 2px 280px;
+    padding: 8px 0 2px 15%;
+    width:100%;
 }
 
 
 footer {
     bottom: 0;
-    background-color: black;
+    background-color: white;
     text-align: center;
     padding: 8px;
-    min-width: 580px;
+    color: gray;
 }
 
 
-a {
+nav {
+    margin-right: 10px; 
+}
+
+
+nav > a {
     color: #507299;
     text-decoration: none;
     display: block;
-    margin: 20px 0 0;
-    width: 150px;
+    padding: 10px;
+    width: 210px;
+}
+
+
+nav > a:first-child {
+    margin-top: 20px;
+}
+
+
+nav > a:hover {
+    transition: 0.3s;
+    background-color: #e1e5eb;
 }
 
 
 main {
     display: flex;
     margin: auto;
-    width: 50%;
+    width: 1010px;
+    margin-top: 43px;
 }
 
+
+.content_box {
+    width: 520px;
+    margin: 0 10px;
+    text-align: justify;
+
+}
+
+
+.content {
+    background-color: white;
+    border: 1px solid #d0d0d0;
+    border-radius: 10px;
+    padding: 20px;
+    padding-bottom:30px;
+    margin: 15px 0;
+}
+
+
+.content > a {
+    text-decoration: none;
+    color: #507299;
+}
+
+
+.content_head {
+    font-weight:600;
+}
+
+
+hr {
+    border: none;
+    background-color: #d0d0d0;
+}
+
+
+div + hr {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+
+img {
+    max-width: 478px;
+}
+
+
+.info {
+    margin: 15px 0;
+    font-size: 15px;
+    width: 140px;
+    background-color: white;
+    border: 1px solid #d0d0d0;
+    border-radius: 10px;
+    padding: 20px 10px;
+}
+
+
+h1 {
+    font-size:17px;
+}
+
+
+.info_box {
+    position:fixed;
+    left:75%;
+}
+
+
+.info > p {
+    margin: 10px 0;
+    background-color: #edeef0;
+}
+
+
+@media screen and (max-width:1140px) {
+    .info_box {
+        left: 843px;
+    }
+}
+
+@media screen and (max-width:1026px) {
+    nav {
+        margin: 10px;
+        margin-top: 50px;
+        width: 500px;
+        text-align:center;
+    }
+
+    nav > a {
+        display: inline-block;
+        width: auto;
+    }
+
+    .info_box {
+        visibility: hidden;
+    }
+
+    main {
+        width:520px;
+        display: block;
+    }
+
+    .content_box {
+        margin:0;
+    }
+}
