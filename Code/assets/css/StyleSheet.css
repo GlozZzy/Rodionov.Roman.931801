@@ -1,3 +1,36 @@
-﻿body
-{
+﻿body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+
+input {
+    display: block;
+}
+
+
+#field {
+    margin-top: 8px;
+    width: 1900px;
+    height: 850px;
+}
+
+
+.square {
+    background: rgba(255, 0, 0, 0.8);
+    border: 1px solid black;
+    position: absolute;
+}
+
+
+.trigon {
+    position: absolute;
+}
+
+
+.circle {
+    border: 1px solid black;
+    border-radius: 50%;
+    background: rgba(26, 141, 26, 0.8);
+    position: absolute;
 }
