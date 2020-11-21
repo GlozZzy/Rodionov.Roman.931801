@@ -5,10 +5,24 @@
 <head>
     <meta charset="utf-8" />
     <link rel='stylesheet' href='assets/css/StyleSheet.css'>
-    <title></title>
+    <title>Frontend Task №8</title>
 </head>
 <body>
+    <div id="elems_field">
+        <div class="elem">
+            <input>
+            <input>
+            <button onclick="up_(this)">&#8593;</button>
+            <button onclick="down_(this)">&#8595;</button>
+            <button onclick="this.parentNode.remove()">&#215;</button>
+        </div>
+    </div>
+    <button onclick="add_element()" style="display: block">Добавить элемент</button>
+    <button onclick="save_save()">Сохранить</button>
 
+    <div id="output"></div>
+
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>

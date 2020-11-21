@@ -1,3 +1,14 @@
 ﻿body
 {
+    margin: 0;
+}
+
+.elem > input:nth-child(2) {
+    margin-left: -4.3px;
+}
+
+.elem > button {
+    margin-left: -4.3px;
+    width: 21.2px;
+    height: 21.2px;
 }
