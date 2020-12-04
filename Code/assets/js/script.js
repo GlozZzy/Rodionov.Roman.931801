@@ -37,9 +37,11 @@ function light_() {
 
 var rabbit = true;
 function magic_() {
+    document.getElementById('rabbit').style.transition = '0.5s';
+    document.getElementById('bird').style.transition = '0.5s';
     if (rabbit) {
         document.getElementById('rabbit').style.bottom = '10vh';
-        setTimeout(() => {document.getElementById('bird').style.bottom = '25vh'}, 500);
+        setTimeout(() => { document.getElementById('bird').style.bottom = '25vh' }, 500);
         rabbit = false;
     }
     else {
@@ -47,5 +49,8 @@ function magic_() {
         setTimeout(() => { document.getElementById('rabbit').style.bottom = '25vh' }, 500);
         rabbit = true;
     }
-    
+    setTimeout(() => {
+        document.getElementById('rabbit').style.transition = '0s';
+        document.getElementById('bird').style.transition = '0s';
+    }, 1000);
 }
